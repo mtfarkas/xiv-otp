@@ -1,0 +1,53 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug: auth login (default account)",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}",
+      "args": ["auth", "login"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Debug: auth login (specific account)",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}",
+      "args": ["auth", "login", "--account", "default"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Debug: auth login-url",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}",
+      "args": [
+        "auth",
+        "login-url",
+        "\"otpauth://totp/Example:user?secret=JBSWY3DPEHPK3PXP&issuer=Example\""
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Debug: auth with custom port",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}",
+      "args": ["auth", "--port", "4646", "login"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Debug: current file",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
