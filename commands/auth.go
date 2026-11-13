@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/mfarkas/xiv-otp/secure"
-	"github.com/mfarkas/xiv-otp/validator"
+	"github.com/mtfarkas/xiv-otp/secure"
+	"github.com/mtfarkas/xiv-otp/validator"
 	"github.com/pquerna/otp"
 	"github.com/pquerna/otp/totp"
 	"github.com/urfave/cli/v3"

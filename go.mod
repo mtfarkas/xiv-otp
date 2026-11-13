@@ -1,4 +1,4 @@
-module github.com/mfarkas/xiv-otp
+module github.com/mtfarkas/xiv-otp
 
 go 1.26.5
 

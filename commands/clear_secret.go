@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/mfarkas/xiv-otp/secure"
-	"github.com/mfarkas/xiv-otp/validator"
+	"github.com/mtfarkas/xiv-otp/secure"
+	"github.com/mtfarkas/xiv-otp/validator"
 	"github.com/urfave/cli/v3"
 )
 

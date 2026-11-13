@@ -16,18 +16,18 @@ One command and you're logged in.
 
 ## Installation
 
-Pre-built binaries for Windows, macOS, and Linux are published on the [GitHub Releases](https://github.com/mfarkas/xiv-otp/releases) page — built and uploaded automatically by CI. Pick the archive for your platform, extract it, and put `xivotp` (or `xivotp.exe` on Windows) somewhere on your PATH.
+Pre-built binaries for Windows and Linux are published on the [GitHub Releases](https://github.com/mtfarkas/xiv-otp/releases) page — built and uploaded automatically by CI. Pick the archive for your platform, extract it, and put `xivotp` (or `xivotp.exe` on Windows) somewhere on your PATH.
 
 If you have Go installed and prefer to build from source:
 
 ```sh
-go install github.com/mfarkas/xiv-otp@latest
+go install github.com/mtfarkas/xiv-otp@latest
 ```
 
 Or clone and build manually:
 
 ```sh
-git clone https://github.com/mfarkas/xiv-otp.git
+git clone https://github.com/mtfarkas/xiv-otp.git
 cd xiv-otp
 go build -o xivotp .
 ```

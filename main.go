@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/mfarkas/xiv-otp/commands"
+	"github.com/mtfarkas/xiv-otp/commands"
 	"github.com/urfave/cli/v3"
 )
 
